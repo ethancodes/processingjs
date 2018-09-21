@@ -47,7 +47,7 @@ void setup() {
     int width_chunk = width / 10;
     int height_chunk = height / 10;
     int random_x = int(random(width_chunk, width_chunk * 9));
-    int random_y = height_chunk * 9;
+    int random_y = height_chunk * 6;
     color random_color = colors[int(random(0, colors.length))];
     Wanderer w = new Wanderer(random_color, random_x, random_y, 0);
     wanderers[i] = w;
